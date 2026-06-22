@@ -14,7 +14,7 @@ Project, hourly, or retainer. Same-day reply on weekdays.
 
 - 9 years at Twitch (Amazon), most recently Senior Influencer Marketing Manager. Led creator programs for the NFL, the Olympics, Amazon Prime Video.
 - Left Amazon Oct 2025 to ship AI-driven products as a non-technical founder.
-- Founder of Willhite Strategy Group (North Bay California web design) and Consumer Quest LLC.
+- Founder of Willhite Strategy Group (North Bay California web design).
 
 ### Selected public work
 
@@ -27,7 +27,7 @@ Python, Flask, FastAPI, Astro, TypeScript, Node.js, PostgreSQL, SQLite, Docker, 
 
 ### Contact
 
-- Email: heywillhite@gmail.com
-- LinkedIn: [linkedin.com/in/justinwillhite](https://www.linkedin.com/in/justinwillhite)
 - Site: [itsjustin.me](https://itsjustin.me)
+- LinkedIn: [linkedin.com/in/justinwillhite](https://www.linkedin.com/in/justinwillhite)
+- X: [@JDubbTV](https://x.com/JDubbTV)
 - Based: Santa Rosa, California (Bay Area). Remote-first.
