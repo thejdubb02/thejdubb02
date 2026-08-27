@@ -24,6 +24,15 @@ I run two businesses and a pile of live products on infrastructure I own. I don'
 
 More case studies and outcomes: [itsjustin.me/work](https://itsjustin.me/work/).
 
+### Open-source contributions
+
+Bugs I found, fixed, verified, and submitted upstream to projects people rely on.
+
+| Project | Fix | Status |
+|---|---|---|
+| **[changedetection.io](https://github.com/dgtlmoon/changedetection.io/pull/4336)** | Browser Steps visual selector could not target a `<select>` dropdown nested in a `<div>`. Root-caused to a one-line omission, verified end to end on a live browser stack. | Merged |
+| **[karakeep](https://github.com/karakeep-app/karakeep/pull/3037)** | The `is:inlist` search filter ignored smart-list membership. Fix plus a regression test. | Open |
+
 ### Also live (not all of it is open-source)
 
 - **[Dealophant](https://dealophant.com)** — price-per-unit Amazon comparison + brand marketplace
