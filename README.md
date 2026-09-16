@@ -1,73 +1,43 @@
 # Justin Willhite
 
-**Founder. Creator. Builder.** I ship production software by directing AI agents — architecture, taste, and the last mile — not by pretending I hand-wrote every line.
+AI-native full-stack engineer and independent security researcher. I read source, find real reproducible bugs, and ship minimal, tested fixes upstream.
 
-Founder of [Willhite Strategy Group](https://willhitestrategy.com) (custom websites for North Bay small businesses). Builder of [CLIque](https://github.com/thejdubb02/clique), [Dealophant](https://dealophant.com), and [My GLP Shot](https://myglpshot.com). Creator behind [JDubb](https://www.youtube.com/JDubb), CommQuest, and Dubb Outdoors.
+- Security research and open-source contributions: [research.itsjustin.me](https://research.itsjustin.me)
+- Also on Codeberg: [codeberg.org/thejdubb02](https://codeberg.org/thejdubb02)
 
-[itsjustin.me](https://itsjustin.me) · [Hire me](https://itsjustin.me/for-hire/) · [Buy me a coffee](https://buymeacoffee.com/jdubb)
+### What I do
 
----
-
-### What I actually do
-
-I run two businesses and a pile of live products on infrastructure I own. I don't write production code from a blank file. I **direct builds with AI agents**, make the architecture calls, keep the fleet honest, and ship.
-
-9 years at **Twitch (Amazon)** — most recently Senior Influencer Marketing Manager, running creator programs for the NFL, the Olympics, and Amazon Prime Video. Left in October 2025 to ship my own things.
-
-### Public software
-
-| | |
-|---|---|
-| **[CLIque](https://github.com/thejdubb02/clique)** | Folder-organised, CLI-agnostic coding sessions in a browser, kept alive in tmux. A driver for Claude Code, Grok, Gemini, Codex — not an IDE. Python 3.11+, tmux, **zero dependencies**. |
-| **[My GLP Shot](https://github.com/thejdubb02/my-glp-shot)** | Privacy-first GLP-1 / Tirzepatide tracker. End-to-end encryption in the browser; the server never sees plaintext. Live at [app.myglpshot.com](https://app.myglpshot.com). |
-| **[claude-kit](https://github.com/thejdubb02/claude-kit)** | Personal Claude Code kit — skills, agents, commands, snippets. Portable across projects and machines. |
-
-More case studies and outcomes: [itsjustin.me/work](https://itsjustin.me/work/).
+I direct AI agents to build and review production software, and make the architecture and security calls myself. I run a small development studio, [Willhite Strategy Group](https://willhitestrategy.com), and take on secure code review on request.
 
 ### Open-source contributions
 
-Bugs I found, fixed, verified, and submitted upstream to projects people rely on.
+26 merged pull requests across 10 open-source projects. A few:
 
-| Project | Fix | Status |
-|---|---|---|
-| **[changedetection.io](https://github.com/dgtlmoon/changedetection.io/pull/4336)** | Browser Steps visual selector could not target a `<select>` dropdown nested in a `<div>`. Root-caused to a one-line omission, verified end to end on a live browser stack. | Merged |
-| **[karakeep](https://github.com/karakeep-app/karakeep/pull/3037)** | The `is:inlist` search filter ignored smart-list membership. Fix plus a regression test. | Open |
-
-### Also live (not all of it is open-source)
-
-- **[Dealophant](https://dealophant.com)** — price-per-unit Amazon comparison + brand marketplace
-- **[Daily Deck](https://dailydeckai.com)** — 7 cards, 5 minutes, stay current on AI in plain English
-- **[Willhite Strategy Group](https://willhitestrategy.com)** — custom-built sites for North Bay businesses. No WordPress, no Wix, you own the code. Websites from $500.
-
-### How I ship
-
-Python (Flask / FastAPI), vanilla JS, SQLite and Postgres, Docker, Nginx, Linux, systemd. Models via OpenRouter. Payments via Stripe. Mail via Resend. Fast static sites in HTML/CSS/JS or Astro.
-
-Stdlib-only when the product should still boot in two years. A framework when the product is the framework.
-
-### Creator work
-
-- **JDubb** — tech reviews and gadgets ([YouTube](https://www.youtube.com/JDubb) · [TikTok](https://www.tiktok.com/@jdubbtv))
-- **CommQuest** — product video for e-commerce brands
-- **Dubb Outdoors** — hunting and outdoor gear, shot in the field
-
-### Writing
-
-*[The Awakening](https://www.amazon.com/dp/B0D2ZKN9KT)* — The Veiled Chronicles, Book 1.
-
-### Contract work
-
-Project, hourly, or retainer. Same-day reply on weekdays.
-
-**[Hire me → itsjustin.me/for-hire](https://itsjustin.me/for-hire/)**
-
-### Contact
-
-| | |
+| Project | Contribution |
 |---|---|
-| Site | [itsjustin.me](https://itsjustin.me) |
-| Studio | [willhitestrategy.com](https://willhitestrategy.com) |
-| LinkedIn | [justinwillhite](https://www.linkedin.com/in/justinwillhite) |
-| X | [@JDubbTV](https://x.com/JDubbTV) |
-| Coffee | [buymeacoffee.com/jdubb](https://buymeacoffee.com/jdubb) |
-| Based | Santa Rosa, California (North Bay). Remote-friendly. |
+| [github/github-mcp-server](https://github.com/github/github-mcp-server/pull/3221) | Clear errors for missing owner/repo/issue arguments in the Copilot assignment tools |
+| [alibaba/open-code-review](https://github.com/alibaba/open-code-review/pull/1162) | Honor the configured request timeout in the OpenAI client |
+| [dgtlmoon/changedetection.io](https://github.com/dgtlmoon/changedetection.io/pull/4336) | Fix the Browser Steps selector so it can target a nested dropdown |
+| [snapotter-hq/SnapOtter](https://github.com/snapotter-hq/SnapOtter/pull/1051) | Stop self-hosted instances sending analytics to a third party |
+| [autobrr/qui](https://github.com/autobrr/qui/pull/2671) | Serve a static favicon so background tabs render |
+
+Full list of merged work: [research.itsjustin.me](https://research.itsjustin.me).
+
+### Security research
+
+White-box source review of open-source software, focused on access control and IDOR, SSRF, and injection, disclosed responsibly through each project's advisory channel. Contact for coordinated disclosure: jdubb@commquest.io.
+
+### Selected projects
+
+- [clique](https://github.com/thejdubb02/clique): folder-organized, CLI-agnostic coding sessions in a browser, kept alive in tmux. Python, zero dependencies.
+- [my-glp-shot](https://github.com/thejdubb02/my-glp-shot): privacy-first GLP-1 tracker with end-to-end encryption in the browser, so the server never sees plaintext.
+- [claude-kit](https://github.com/thejdubb02/claude-kit): portable Claude Code kit of skills, agents, and commands.
+- [rampart](https://github.com/thejdubb02/rampart): native desktop admin for Stalwart mail and server management.
+
+### Stack
+
+Python (Flask, FastAPI), TypeScript and vanilla JS, SQLite and Postgres, Docker, Nginx, Linux. Stdlib-first when the product should still boot in two years.
+
+### Elsewhere
+
+[research.itsjustin.me](https://research.itsjustin.me) · [Codeberg](https://codeberg.org/thejdubb02) · [LinkedIn](https://www.linkedin.com/in/justinwillhite) · [X @JDubbTV](https://x.com/JDubbTV) · [ORCID](https://orcid.org/0009-0003-1512-1198)
