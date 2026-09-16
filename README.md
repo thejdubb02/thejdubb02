@@ -1,17 +1,19 @@
 # Justin Willhite
 
-AI-native full-stack engineer and independent security researcher. I read source, find real reproducible bugs, and ship minimal, tested fixes upstream.
+Full-stack engineer and independent security researcher. I read source, find real reproducible bugs, and ship minimal, tested fixes upstream.
 
 - Security research and open-source contributions: [research.itsjustin.me](https://research.itsjustin.me)
 - Also on Codeberg: [codeberg.org/thejdubb02](https://codeberg.org/thejdubb02)
 
 ### What I do
 
-I direct AI agents to build and review production software, and make the architecture and security calls myself. I run a small development studio, [Willhite Strategy Group](https://willhitestrategy.com), and take on secure code review on request.
+I ship production software by directing AI agents, and make the architecture and security calls myself. I run a small development studio, [Willhite Strategy Group](https://willhitestrategy.com). Before this, nine years at Twitch (Amazon) running creator and marketing programs.
+
+I am open to contract work. Paid secure code review and vulnerability fixes are on [Fiverr](https://www.fiverr.com/s/gvDYd2W).
 
 ### Open-source contributions
 
-26 merged pull requests across 10 open-source projects. A few:
+26 merged pull requests across 10 open-source projects that together hold more than 131,000 GitHub stars. A few:
 
 | Project | Contribution |
 |---|---|
@@ -31,7 +33,7 @@ White-box source review of open-source software, focused on access control and I
 
 - [clique](https://github.com/thejdubb02/clique): folder-organized, CLI-agnostic coding sessions in a browser, kept alive in tmux. Python, zero dependencies.
 - [my-glp-shot](https://github.com/thejdubb02/my-glp-shot): privacy-first GLP-1 tracker with end-to-end encryption in the browser, so the server never sees plaintext.
-- [claude-kit](https://github.com/thejdubb02/claude-kit): portable Claude Code kit of skills, agents, and commands.
+- [claude-kit](https://github.com/thejdubb02/claude-kit): portable Claude Code kit of skills, commands, and hooks.
 - [rampart](https://github.com/thejdubb02/rampart): native desktop admin for Stalwart mail and server management.
 
 ### Stack
@@ -40,4 +42,4 @@ Python (Flask, FastAPI), TypeScript and vanilla JS, SQLite and Postgres, Docker,
 
 ### Elsewhere
 
-[research.itsjustin.me](https://research.itsjustin.me) · [Codeberg](https://codeberg.org/thejdubb02) · [LinkedIn](https://www.linkedin.com/in/justinwillhite) · [X @JDubbTV](https://x.com/JDubbTV) · [ORCID](https://orcid.org/0009-0003-1512-1198)
+[itsjustin.me](https://itsjustin.me) · [research.itsjustin.me](https://research.itsjustin.me) · [Codeberg](https://codeberg.org/thejdubb02) · [LinkedIn](https://www.linkedin.com/in/justinwillhite) · [X @JDubbTV](https://x.com/JDubbTV) · [ORCID](https://orcid.org/0009-0003-1512-1198)
